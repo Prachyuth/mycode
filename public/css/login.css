@@ -1,0 +1,101 @@
+*{
+    margin: 0px, 20px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'poppins';
+    color: hsl(0, 0%, 76%);
+    background: #000000;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+
+
+  a{
+    text-decoration: none;
+  }
+
+  #container{
+    margin: 60px auto;
+    max-width: 430px;
+    padding: 40px;
+  }
+
+  .form-wrap{
+    background-color: #fff;
+    padding: 15px 25px;
+    color: #333;
+    border-top: 4px solid #49c1a2;
+    border-radius: 5px;
+  }
+
+  .form-wrap h1{
+   text-align: center;
+  }
+  .form-wrap p{
+    text-align: center;
+    color: #49c1a2 ;
+  }
+
+  .form-wrap .form-group{
+    margin-top: 45px;
+  }
+
+  .form-wrap .form-group  .fa-eye {
+    position: absolute;
+    left: 895px;
+    top: 395px;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .form-wrap .form-group label{
+    display: block;
+    color: #666;
+  }
+
+  .form-wrap .form-group input{
+    width: 100%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+    border-bottom: 0.2rem solid #04AA6D
+  }
+
+  .form-wrap button{
+
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #04AA6D;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #49c1a2;
+    border-radius: 18px;
+    font-family: 'poppins';
+    font-size: 15px;
+    transition: 1s;
+  }
+
+  .form-wrap button:hover{
+    background-color: #37a08e;
+    transition: 1s;
+  }
+
+  .form-wrap .bottom-text{
+    font-size: 13px;
+    margin-top: 20px;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+  }
+
+  footer a {
+    color:#49c1a2
+  }
